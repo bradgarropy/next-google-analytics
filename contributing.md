@@ -21,13 +21,13 @@ In order to submit a pull request, you'll have to setup your own development env
 Then you can clone the forked repository to your system.
 
 ```bash
-git clone https://github.com/<username>/react-library-starter
+git clone https://github.com/<username>/next-google-analytics
 ```
 
 Next you need to install the dependencies.
 
 ```bash
-cd react-library-starter
+cd next-google-analytics
 npm install
 ```
 
@@ -92,7 +92,7 @@ I appreciate any and all types of contributions to this project! Contributors ar
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://bradgarropy.com"><img src="https://avatars.githubusercontent.com/u/11336745?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Brad Garropy</b></sub></a><br /><a href="https://github.com/bradgarropy/react-library-starter/commits?author=bradgarropy" title="Code">💻</a> <a href="https://github.com/bradgarropy/react-library-starter/commits?author=bradgarropy" title="Documentation">📖</a> <a href="https://github.com/bradgarropy/react-library-starter/commits?author=bradgarropy" title="Tests">⚠️</a> <a href="#infra-bradgarropy" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
+    <td align="center"><a href="https://bradgarropy.com"><img src="https://avatars.githubusercontent.com/u/11336745?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Brad Garropy</b></sub></a><br /><a href="https://github.com/bradgarropy/next-google-analytics/commits?author=bradgarropy" title="Code">💻</a> <a href="https://github.com/bradgarropy/next-google-analytics/commits?author=bradgarropy" title="Documentation">📖</a> <a href="https://github.com/bradgarropy/next-google-analytics/commits?author=bradgarropy" title="Tests">⚠️</a> <a href="#infra-bradgarropy" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
   </tr>
 </table>
 
@@ -101,9 +101,9 @@ I appreciate any and all types of contributions to this project! Contributors ar
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-[issues]: https://github.com/bradgarropy/react-library-starter/issues
+[issues]: https://github.com/bradgarropy/next-google-analytics/issues
 [codesandbox]: https://codesandbox.io
 [kcd-pr]: https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github
-[license]: https://github.com/bradgarropy/react-library-starter/blob/master/license
-[fork]: https://github.com/bradgarropy/react-library-starter/fork
-[contributors]: https://github.com/bradgarropy/react-library-starter#-contributors
+[license]: https://github.com/bradgarropy/next-google-analytics/blob/master/license
+[fork]: https://github.com/bradgarropy/next-google-analytics/fork
+[contributors]: https://github.com/bradgarropy/next-google-analytics#-contributors

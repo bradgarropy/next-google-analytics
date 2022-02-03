@@ -1,18 +1,20 @@
 {
-    "name": "react-library-starter",
-    "version": "1.6.3",
-    "description": "⚛ react library starter",
+    "name": "@bradgarropy/next-google-analytics",
+    "version": "0.0.1",
+    "description": "📊 google analytics for next.js",
     "keywords": [
         "typescript",
         "react",
+        "next",
         "eslint",
         "prettier",
         "jest",
-        "starter"
+        "google",
+        "google-analytics"
     ],
-    "homepage": "https://github.com/bradgarropy/react-library-starter",
+    "homepage": "https://github.com/bradgarropy/next-google-analytics",
     "bugs": {
-        "url": "https://github.com/bradgarropy/react-library-starter/issues"
+        "url": "https://github.com/bradgarropy/next-google-analytics/issues"
     },
     "license": "MIT",
     "author": {
@@ -27,7 +29,7 @@
     "types": "dist/types/index.d.ts",
     "repository": {
         "type": "git",
-        "url": "https://github.com/bradgarropy/react-library-starter"
+        "url": "https://github.com/bradgarropy/next-google-analytics"
     },
     "scripts": {
         "start": "tsc --watch",
@@ -65,6 +67,7 @@
         "husky": "^5.1.3",
         "jest": "^27.0.5",
         "lint-staged": "^10.5.4",
+        "next": "^12.0.10",
         "prettier": "^2.2.1",
         "react": "^17.0.1",
         "react-dom": "^17.0.1",
@@ -73,6 +76,7 @@
         "typescript": "^4.1.3"
     },
     "peerDependencies": {
+        "next": ">=12",
         "react": ">=16"
     },
     "engines": {
