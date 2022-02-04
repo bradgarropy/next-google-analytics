@@ -1,6 +1,6 @@
 {
     "name": "@bradgarropy/next-google-analytics",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "📊 google analytics for next.js",
     "keywords": [
         "typescript",
