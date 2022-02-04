@@ -22,11 +22,41 @@ npm install @bradgarropy/next-google-analytics
 
 ## 🥑 Usage
 
-// TODO: Write usage section.
+This component integrates [Google Analytics 4][ga4] into your [Next.js][nextjs] website. It downloads and initializes the `gtag` script, and no further setup is required. In order to work, this component must be placed in the `pages/_app.js` file.
+
+```jsx
+// pages/_app.js
+import GoogleAnalytics from "@bradgarropy/next-google-analytics"
+
+const App = ({Component, pageProps}) => {
+    return (
+        <>
+            <GoogleAnalytics measurementId="G-XXXXXXXXXX" />
+            <Component {...pageProps} />
+        </>
+    )
+}
+```
+
+To ensure that Google Analytics is working, you can check a few things.
+
+1. A network request was made to `https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX`.
+2. `window.dataLayer` exists and includes your Measurement ID.
+3. When you navigate your site, items are added to the `window.dataLayer` array.
 
 ## 📖 API Reference
 
-// TODO: Write api reference section.
+### `<GoogleAnalytics>`
+
+| Name            | Required | Default | Example          | Description                                        |
+| :-------------- | :------: | :-----: | :--------------- | :------------------------------------------------- |
+| `measurementId` |  `true`  |         | `"G-XXXXXXXXXX"` | Google Analytics [Measurement ID][measurement-id]. |
+
+The example below shows how to use the component.
+
+```jsx
+<GoogleAnalytics measurementId="G-XXXXXXXXXX" />
+```
 
 ## ❔ Questions
 
@@ -72,3 +102,4 @@ npm install @bradgarropy/next-google-analytics
 [discord-badge]: https://img.shields.io/discord/748196643140010015?style=flat-square
 [ga4]: https://analytics.google.com
 [nextjs]: https://nextjs.org
+[measurement-id]: https://www.youtube.com/watch?v=eWpTwBO9bNg&t=27s
