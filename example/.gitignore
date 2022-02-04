@@ -1,0 +1,14 @@
+# editor
+.vscode
+
+# dependencies
+node_modules
+
+# build
+.next
+
+# test
+coverage
+
+# secrets
+.env*

@@ -1,5 +1,5 @@
-import Component from "../src"
+import GoogleAnalytics from "../src"
 
 test("renders", () => {
-    expect(Component).toBeInstanceOf(Function)
+    expect(GoogleAnalytics).toBeInstanceOf(Function)
 })

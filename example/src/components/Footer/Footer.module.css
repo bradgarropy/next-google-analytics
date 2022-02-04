@@ -1,0 +1,6 @@
+.footer {
+    background-image: linear-gradient(to bottom, #121212 0%, #323232 100%);
+    color: var(--offWhite);
+    text-align: center;
+    padding: 20px 30px;
+}

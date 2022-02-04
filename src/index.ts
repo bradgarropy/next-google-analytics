@@ -1,1 +1,1 @@
-export {default} from "./components/Component"
+export {default} from "./components/GoogleAnalytics"

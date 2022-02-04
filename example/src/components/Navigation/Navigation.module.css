@@ -1,0 +1,15 @@
+.navigation {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+}
+
+.link {
+    color: var(--gray);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: var(--offBlack);
+}
