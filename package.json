@@ -1,6 +1,6 @@
 {
     "name": "@bradgarropy/next-google-analytics",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "📊 google analytics for next.js",
     "keywords": [
         "typescript",
@@ -72,7 +72,6 @@
         "react": "^17.0.1",
         "react-dom": "^17.0.1",
         "ts-jest": "^27.0.3",
-        "tslib": "^2.1.0",
         "typescript": "^4.1.3"
     },
     "peerDependencies": {
